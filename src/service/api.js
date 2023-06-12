@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const URL = 'https://ecommercewebsite-2lgx.onrender.com/';
+const URL = 'https://ecommercewebsite-2lgx.onrender.com';
  
 
 export const authenticateSignup = async (data) => {
