@@ -2,7 +2,7 @@
 import axios from "axios";
 
  import * as actionTypes from '../constants/productConstant';
- const URL="https://ecommercewebsite-2lgx.onrender.com/";
+ const URL="https://ecommercewebsite-2lgx.onrender.com";
 export const getProducts=()=>async(dispatch)=>{
     try{
        const {data}= await axios.get(`${URL}/products`);
